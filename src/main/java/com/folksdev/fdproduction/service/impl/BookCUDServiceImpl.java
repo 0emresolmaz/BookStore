@@ -16,7 +16,6 @@ public class BookCUDServiceImpl implements BookCUDService {
     private final BookRepository bookRepository;
     private final CategoryService categoryService;
 
-
     @Override
     @Transactional
     public BookListItemResponse save(SaveBookRequest saveBookRequest) {

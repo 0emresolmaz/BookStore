@@ -6,7 +6,7 @@ import com.folksdev.fdproduction.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class CategoryCUDServiceImpl implements CategoryService {
+public class CategoryServiceImpl implements CategoryService {
     private final CategoryRepository categoryRepository;
 
     @Override

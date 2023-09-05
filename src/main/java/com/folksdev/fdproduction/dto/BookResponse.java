@@ -6,8 +6,7 @@ import lombok.experimental.SuperBuilder;
 
 @Data
 @SuperBuilder
-public class BookListItemResponse {
-    private Long id;
+public class BookResponse {
     private String title;
     private String authorName;
     private BookStatus bookStatus;
